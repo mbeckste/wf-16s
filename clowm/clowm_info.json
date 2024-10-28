@@ -6,8 +6,7 @@
       "out_dir"
   ],
   "exampleParameters": {
-      "fastq": "s3://workflow-exampledata/epi2me-ont-16s/example1/test_data",
-      "minimap2_by_reference": "true"
+      "fastq": "s3://workflow-exampledata/epi2me-ont-16s/example1/test_data"
   },
     "resourceParameters": [
 	"store_dir"
