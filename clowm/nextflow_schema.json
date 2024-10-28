@@ -368,7 +368,10 @@
                     "title": "Include Kraken2/Minimap2 taxonomy per read.",
                     "description": "A per-sample TSV file that indicates the taxonomy assigned to each sequence. The TSVs will only be published to the output on completion of the workflow, and therefore if running indefinitely using the real time option, these files will never be published."
                 }
-            }
+            },
+              "required": [
+                "out_dir"
+            ]
         },
         "advanced_options": {
             "title": "Advanced Options",
