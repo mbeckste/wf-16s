@@ -428,7 +428,7 @@
                     "title": "Disable ping",
                     "default": false,
                     "description": "Enable to prevent sending a workflow ping.",
-                    "hidden": false
+                    "hidden": true
                 },
                 "help": {
                     "type": "boolean",
