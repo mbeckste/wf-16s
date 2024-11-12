@@ -6,7 +6,8 @@
       "out_dir"
   ],
   "exampleParameters": {
-      "fastq": "s3://workflow-exampledata/epi2me-ont-16s/example1/test_data"
+      "fastq": "s3://workflow-exampledata/epi2me-ont-16s/example1/test_data",
+      "notes": "Run of the wf-16s ONT workflow with example (Try-it-out) input data."
   },
     "resourceParameters": [
 	"store_dir"
