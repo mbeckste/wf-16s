@@ -3,18 +3,6 @@
 Taxonomic classification of single reads from amplicon-targeted sequencing.
 
 
-
-## Usage
-
-The workflow can then be run with the downloaded demo data using:
-```
-nextflow run epi2me-labs/wf-16s \
-	--fastq 'wf-16s-demo/test_data' \
-	--minimap2_by_reference \
-	-profile standard
-```
-
-
 ## Related protocols
 
 This workflow is designed to take input sequences that have been produced from [Oxford Nanopore Technologies](https://nanoporetech.com/) devices using this protocol:
